@@ -1,0 +1,72 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f8fb;
+    padding-top: 40px;
+}
+
+.container {
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+#calendar {
+    flex: 1;
+}
+
+.memo-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8fafd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.emoji-btn {
+    font-size: 1.5rem;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+body {
+    background-color: #fffdf2; /* 부드러운 노란빛 배경 */
+    font-family: 'Gowun Dodum', sans-serif; /* 귀여운 글씨체 */
+  }
+  
+  h3, h5 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  #diary-form input, #diary-form textarea {
+    border-radius: 8px;
+  }
+  
+  #diary-list .card {
+    border: 1px solid #ffd580;
+    background-color: #fffce6;
+  }
+  
+
+
